@@ -1,0 +1,71 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.ipynb_output/
+
+# === Virtual Environments ===
+venv/
+env/
+.venv/
+.env/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Experiment Outputs ===
+results_*.csv
+*.png
+*.jpg
+*.jpeg
+
+# === LaTeX Build Artifacts ===
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+
+# === Data (large files - keep tracked via Git LFS or download separately) ===
+# Uncomment below to ignore datasets if using Git LFS
+# *.arff
+# *.csv
+# *.zip
+
+# === Misc ===
+*.pkl
+*.joblib
+*.h5
+*.model
+.gemini/

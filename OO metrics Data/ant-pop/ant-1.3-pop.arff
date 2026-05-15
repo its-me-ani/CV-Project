@@ -1,0 +1,141 @@
+@relation ant-1.3
+
+@attribute System {ant}
+@attribute Version numeric
+@attribute Class {org.apache.tools.ant.taskdefs.ExecuteOn,org.apache.tools.ant.DefaultLogger,org.apache.tools.ant.taskdefs.TaskOutputStream,org.apache.tools.ant.taskdefs.Cvs,org.apache.tools.ant.taskdefs.Copyfile,org.apache.tools.ant.util.GlobPatternMapper,org.apache.tools.ant.taskdefs.Move,org.apache.tools.tar.TarInputStream,org.apache.tools.ant.taskdefs.CompileTask,org.apache.tools.ant.types.PatternSet,org.apache.tools.ant.taskdefs.Patch,org.apache.tools.ant.taskdefs.Mkdir,org.apache.tools.ant.taskdefs.Exec,org.apache.tools.ant.AntClassLoader,org.apache.tools.ant.types.EnumeratedAttribute,org.apache.tools.ant.XmlLogger,org.apache.tools.ant.taskdefs.Rmic,org.apache.tools.ant.util.regexp.JakartaRegexpMatcher,org.apache.tools.ant.util.FlatFileNameMapper,org.apache.tools.ant.BuildLogger,org.apache.tools.ant.types.DataType,org.apache.tools.ant.taskdefs.Get,org.apache.tools.ant.taskdefs.Zip,org.apache.tools.ant.taskdefs.compilers.CompilerAdapter,org.apache.tools.ant.taskdefs.LogOutputStream,org.apache.tools.ant.taskdefs.StreamPumper,org.apache.tools.ant.DirectoryScanner,org.apache.tools.ant.taskdefs.JikesOutputParser,org.apache.tools.ant.taskdefs.Tstamp,org.apache.tools.ant.util.IdentityMapper,org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory,org.apache.tools.ant.Constants,org.apache.tools.ant.taskdefs.War,org.apache.tools.ant.taskdefs.Echo,org.apache.tools.ant.types.FileSet,org.apache.tools.ant.taskdefs.Available,org.apache.tools.ant.Main,org.apache.tools.ant.UnknownElement,org.apache.tools.ant.taskdefs.Transform,org.apache.tools.ant.taskdefs.Rename,org.apache.tools.ant.util.regexp.RegexpMatcherFactory,org.apache.tools.ant.taskdefs.Property,org.apache.tools.ant.taskdefs.Ant,org.apache.tools.ant.types.Path,org.apache.tools.ant.types.ZipScanner,org.apache.tools.ant.taskdefs.SignJar,org.apache.tools.mail.MailPrintStream,org.apache.tools.ant.taskdefs.Jikes,org.apache.tools.ant.taskdefs.compilers.Jikes,org.apache.tools.ant.taskdefs.ExecuteStreamHandler,org.apache.tools.ant.util.regexp.JakartaOroMatcher,org.apache.tools.ant.taskdefs.MatchingTask,org.apache.tools.ant.taskdefs.compilers.Javac13,org.apache.tools.ant.ProjectHelper,org.apache.tools.ant.taskdefs.LogStreamHandler,org.apache.tools.ant.taskdefs.Delete,org.apache.tools.ant.taskdefs.SQLExec,org.apache.tools.ant.taskdefs.Javac,org.apache.tools.ant.util.RegexpPatternMapper,org.apache.tools.ant.taskdefs.Exit,org.apache.tools.ant.BuildListener,org.apache.tools.ant.util.FileNameMapper,org.apache.tools.ant.types.Mapper,org.apache.tools.ant.Location,org.apache.tools.ant.taskdefs.GUnzip,org.apache.tools.ant.RuntimeConfigurable,org.apache.tools.ant.BuildEvent,org.apache.tools.ant.taskdefs.JavacOutputStream,org.apache.tools.ant.types.Reference,org.apache.tools.ant.taskdefs.Tar,org.apache.tools.ant.taskdefs.XSLTProcess,org.apache.tools.ant.taskdefs.KeySubst,org.apache.tools.ant.taskdefs.ExecuteJava,org.apache.tools.ant.util.regexp.RegexpMatcher,org.apache.tools.ant.taskdefs.FixCRLF,org.apache.tools.ant.taskdefs.Execute,org.apache.tools.ant.taskdefs.Jar,org.apache.tools.ant.taskdefs.CallTarget,org.apache.tools.ant.Project,org.apache.tools.ant.taskdefs.Deltree,org.apache.tools.ant.taskdefs.ExecuteWatchdog,org.apache.tools.ant.util.SourceFileScanner,org.apache.tools.ant.types.ZipFileSet,org.apache.tools.ant.taskdefs.Copy,org.apache.tools.tar.TarConstants,org.apache.tools.tar.TarEntry,org.apache.tools.tar.TarBuffer,org.apache.tools.ant.types.Environment,org.apache.tools.tar.TarOutputStream,org.apache.tools.ant.FileScanner,org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter,org.apache.tools.tar.TarUtils,org.apache.tools.ant.taskdefs.GZip,org.apache.tools.ant.taskdefs.Touch,org.apache.tools.ant.taskdefs.compilers.Jvc,org.apache.tools.ant.taskdefs.Taskdef,org.apache.tools.ant.taskdefs.ExecTask,org.apache.tools.mail.SmtpResponseReader,org.apache.tools.ant.taskdefs.Java,org.apache.tools.ant.types.Commandline,org.apache.tools.ant.taskdefs.Replace,org.apache.tools.ant.taskdefs.Expand,org.apache.tools.ant.types.CommandlineJava,org.apache.tools.ant.util.DOMElementWriter,org.apache.tools.ant.taskdefs.Untar,org.apache.tools.ant.taskdefs.AntStructure,org.apache.tools.ant.taskdefs.XSLTLiaison,org.apache.tools.ant.taskdefs.PumpStreamHandler,org.apache.tools.ant.PathTokenizer,org.apache.tools.ant.util.MergingMapper,org.apache.tools.ant.DesirableFilter,org.apache.tools.ant.taskdefs.GenerateKey,org.apache.tools.ant.taskdefs.Filter,org.apache.tools.ant.taskdefs.Chmod,org.apache.tools.ant.Target,org.apache.tools.ant.taskdefs.compilers.Javac12,org.apache.tools.ant.Task,org.apache.tools.ant.taskdefs.UpToDate,org.apache.tools.ant.TaskAdapter,org.apache.tools.ant.taskdefs.Copydir,org.apache.tools.ant.taskdefs.Javadoc,org.apache.tools.ant.BuildException,org.apache.tools.ant.IntrospectionHelper,org.apache.tools.ant.NoBannerLogger,org.apache.tools.mail.MailMessage}
+@attribute Type {C,I}
+@attribute Getters numeric
+@attribute Setters numeric
+@attribute NoM numeric
+@attribute InDegrees numeric
+@attribute OutDegrees numeric
+@attribute ClusteringCoefficient numeric
+@attribute LOC numeric
+@attribute Bugs numeric
+
+@data
+ant,1.3,org.apache.tools.ant.taskdefs.ExecuteOn,C,0,2,11,3,16,0.393939,380,0
+ant,1.3,org.apache.tools.ant.DefaultLogger,C,0,4,14,4,11,0.428571,236,2
+ant,1.3,org.apache.tools.ant.taskdefs.TaskOutputStream,C,0,0,3,0,4,0,52,0
+ant,1.3,org.apache.tools.ant.taskdefs.Cvs,C,0,10,12,0,15,0.361111,289,0
+ant,1.3,org.apache.tools.ant.taskdefs.Copyfile,C,0,4,6,0,7,1,126,0
+ant,1.3,org.apache.tools.ant.util.GlobPatternMapper,C,0,2,5,2,4,0.333333,126,0
+ant,1.3,org.apache.tools.ant.taskdefs.Move,C,0,0,4,0,13,0.8,321,0
+ant,1.3,org.apache.tools.tar.TarInputStream,C,2,1,16,1,9,0.333333,580,0
+ant,1.3,org.apache.tools.ant.taskdefs.CompileTask,C,0,0,4,0,10,0.466667,82,0
+ant,1.3,org.apache.tools.ant.types.PatternSet,C,0,5,17,7,16,0.409091,440,1
+ant,1.3,org.apache.tools.ant.taskdefs.Patch,C,0,7,9,0,9,0.466667,156,0
+ant,1.3,org.apache.tools.ant.taskdefs.Mkdir,C,0,1,3,0,4,1,80,1
+ant,1.3,org.apache.tools.ant.taskdefs.Exec,C,0,5,10,1,15,0.5,343,0
+ant,1.3,org.apache.tools.ant.AntClassLoader,C,0,1,16,7,24,0.305556,671,2
+ant,1.3,org.apache.tools.ant.types.EnumeratedAttribute,C,1,1,4,11,4,0.151515,53,0
+ant,1.3,org.apache.tools.ant.XmlLogger,C,0,0,10,0,27,0.444444,351,0
+ant,1.3,org.apache.tools.ant.taskdefs.Rmic,C,0,13,19,1,20,0.242424,630,1
+ant,1.3,org.apache.tools.ant.util.regexp.JakartaRegexpMatcher,C,1,1,5,0,6,1,58,0
+ant,1.3,org.apache.tools.ant.util.FlatFileNameMapper,C,0,2,4,1,4,1,16,0
+ant,1.3,org.apache.tools.ant.BuildLogger,I,0,0,0,2,2,0.666667,0,0
+ant,1.3,org.apache.tools.ant.types.DataType,C,1,2,9,5,5,0.666667,86,0
+ant,1.3,org.apache.tools.ant.taskdefs.Get,C,0,5,8,0,15,1,381,0
+ant,1.3,org.apache.tools.ant.taskdefs.Zip,C,0,4,22,2,28,0.327273,1150,3
+ant,1.3,org.apache.tools.ant.taskdefs.compilers.CompilerAdapter,I,0,0,0,3,2,0.833333,0,0
+ant,1.3,org.apache.tools.ant.taskdefs.LogOutputStream,C,1,0,7,7,4,0.25,81,0
+ant,1.3,org.apache.tools.ant.taskdefs.StreamPumper,C,0,0,2,1,7,0,33,0
+ant,1.3,org.apache.tools.ant.DirectoryScanner,C,7,2,23,17,10,0.157895,1373,0
+ant,1.3,org.apache.tools.ant.taskdefs.JikesOutputParser,C,1,4,12,0,7,0,128,0
+ant,1.3,org.apache.tools.ant.taskdefs.Tstamp,C,0,0,3,1,11,0.833333,87,0
+ant,1.3,org.apache.tools.ant.util.IdentityMapper,C,0,2,4,1,3,1,12,0
+ant,1.3,org.apache.tools.ant.taskdefs.compilers.CompilerAdapterFactory,C,0,0,3,1,14,0.464286,122,0
+ant,1.3,org.apache.tools.ant.Constants,I,0,0,0,0,1,0,0,0
+ant,1.3,org.apache.tools.ant.taskdefs.War,C,0,2,9,0,10,0.866667,152,0
+ant,1.3,org.apache.tools.ant.taskdefs.Echo,C,0,4,7,1,12,0.466667,136,0
+ant,1.3,org.apache.tools.ant.types.FileSet,C,0,7,16,16,12,0.225296,333,1
+ant,1.3,org.apache.tools.ant.taskdefs.Available,C,0,7,13,0,13,0.7,253,0
+ant,1.3,org.apache.tools.ant.Main,C,0,0,13,0,30,0.428571,1216,1
+ant,1.3,org.apache.tools.ant.UnknownElement,C,1,0,6,2,11,0.611111,189,3
+ant,1.3,org.apache.tools.ant.taskdefs.Transform,C,0,1,9,0,16,0.377778,361,0
+ant,1.3,org.apache.tools.ant.taskdefs.Rename,C,0,3,5,0,5,1,99,0
+ant,1.3,org.apache.tools.ant.util.regexp.RegexpMatcherFactory,C,0,0,3,1,6,1,40,0
+ant,1.3,org.apache.tools.ant.taskdefs.Property,C,6,10,27,1,21,0.5,623,2
+ant,1.3,org.apache.tools.ant.taskdefs.Ant,C,0,4,10,1,18,0.5,424,0
+ant,1.3,org.apache.tools.ant.types.Path,C,0,3,23,19,18,0.2,663,0
+ant,1.3,org.apache.tools.ant.types.ZipScanner,C,2,1,6,2,3,0.333333,61,0
+ant,1.3,org.apache.tools.ant.taskdefs.SignJar,C,0,11,14,0,9,0.666667,282,0
+ant,1.3,org.apache.tools.mail.MailPrintStream,C,0,0,5,1,2,0,75,0
+ant,1.3,org.apache.tools.ant.taskdefs.Jikes,C,0,0,2,0,13,0.666667,171,0
+ant,1.3,org.apache.tools.ant.taskdefs.compilers.Jikes,C,0,0,2,1,8,0.571429,202,0
+ant,1.3,org.apache.tools.ant.taskdefs.ExecuteStreamHandler,I,0,0,0,3,2,0.333333,0,0
+ant,1.3,org.apache.tools.ant.util.regexp.JakartaOroMatcher,C,1,1,5,0,9,1,67,0
+ant,1.3,org.apache.tools.ant.taskdefs.MatchingTask,C,0,5,12,12,8,0.2,150,0
+ant,1.3,org.apache.tools.ant.taskdefs.compilers.Javac13,C,0,0,2,1,13,0.533333,94,0
+ant,1.3,org.apache.tools.ant.ProjectHelper,C,0,0,10,14,28,0.251462,454,3
+ant,1.3,org.apache.tools.ant.taskdefs.LogStreamHandler,C,0,0,1,6,2,0.357143,13,0
+ant,1.3,org.apache.tools.ant.taskdefs.Delete,C,0,10,18,0,11,0.571429,554,0
+ant,1.3,org.apache.tools.ant.taskdefs.SQLExec,C,0,14,23,2,34,0.285714,991,0
+ant,1.3,org.apache.tools.ant.taskdefs.Javac,C,16,18,42,2,14,0.30303,491,0
+ant,1.3,org.apache.tools.ant.util.RegexpPatternMapper,C,0,2,5,0,10,0.5,136,0
+ant,1.3,org.apache.tools.ant.taskdefs.Exit,C,0,1,3,0,3,1,25,0
+ant,1.3,org.apache.tools.ant.BuildListener,I,0,0,0,5,2,0.4,0,0
+ant,1.3,org.apache.tools.ant.util.FileNameMapper,I,0,0,0,10,1,0.155556,0,0
+ant,1.3,org.apache.tools.ant.types.Mapper,C,2,7,11,4,12,0.266667,268,0
+ant,1.3,org.apache.tools.ant.Location,C,0,0,5,6,2,0.733333,60,0
+ant,1.3,org.apache.tools.ant.taskdefs.GUnzip,C,0,2,4,0,11,1,209,0
+ant,1.3,org.apache.tools.ant.RuntimeConfigurable,C,1,2,9,4,8,0.8,101,2
+ant,1.3,org.apache.tools.ant.BuildEvent,C,6,1,11,4,3,0.733333,80,0
+ant,1.3,org.apache.tools.ant.taskdefs.JavacOutputStream,C,1,0,4,0,5,0,61,0
+ant,1.3,org.apache.tools.ant.types.Reference,C,1,1,5,6,5,0.642857,49,0
+ant,1.3,org.apache.tools.ant.taskdefs.Tar,C,0,3,8,1,18,0.194444,563,0
+ant,1.3,org.apache.tools.ant.taskdefs.XSLTProcess,C,0,7,13,1,16,0.285714,569,0
+ant,1.3,org.apache.tools.ant.taskdefs.KeySubst,C,0,4,8,0,18,1,259,0
+ant,1.3,org.apache.tools.ant.taskdefs.ExecuteJava,C,0,4,6,1,16,0.6,175,0
+ant,1.3,org.apache.tools.ant.util.regexp.RegexpMatcher,I,0,0,0,4,2,0.5,0,0
+ant,1.3,org.apache.tools.ant.taskdefs.FixCRLF,C,0,6,8,1,13,0.333333,612,3
+ant,1.3,org.apache.tools.ant.taskdefs.Execute,C,3,6,20,17,29,0.202899,531,1
+ant,1.3,org.apache.tools.ant.taskdefs.Jar,C,0,2,6,1,12,0.866667,156,0
+ant,1.3,org.apache.tools.ant.taskdefs.CallTarget,C,0,1,5,0,4,1,69,0
+ant,1.3,org.apache.tools.ant.Project,C,11,5,70,62,39,0.072365,2084,1
+ant,1.3,org.apache.tools.ant.taskdefs.Deltree,C,0,1,4,0,5,1,147,0
+ant,1.3,org.apache.tools.ant.taskdefs.ExecuteWatchdog,C,0,0,8,2,14,1,156,0
+ant,1.3,org.apache.tools.ant.util.SourceFileScanner,C,0,0,3,7,9,0.25,273,0
+ant,1.3,org.apache.tools.ant.types.ZipFileSet,C,3,4,9,3,5,0.619048,97,0
+ant,1.3,org.apache.tools.ant.taskdefs.Copy,C,0,9,17,1,18,0.290909,612,0
+ant,1.3,org.apache.tools.tar.TarConstants,I,0,0,0,1,1,0,0,0
+ant,1.3,org.apache.tools.tar.TarEntry,C,9,7,31,4,8,0.133333,701,0
+ant,1.3,org.apache.tools.tar.TarBuffer,C,4,1,21,2,7,0,585,0
+ant,1.3,org.apache.tools.ant.types.Environment,C,1,0,3,5,5,0.8,43,0
+ant,1.3,org.apache.tools.tar.TarOutputStream,C,1,3,15,1,8,0.333333,410,0
+ant,1.3,org.apache.tools.ant.FileScanner,I,0,0,0,3,1,0.666667,0,0
+ant,1.3,org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter,C,2,1,9,4,21,0.352381,714,1
+ant,1.3,org.apache.tools.tar.TarUtils,C,0,0,8,1,3,0,266,0
+ant,1.3,org.apache.tools.ant.taskdefs.GZip,C,0,2,6,0,11,1,149,0
+ant,1.3,org.apache.tools.ant.taskdefs.Touch,C,0,3,7,3,21,0.8,276,0
+ant,1.3,org.apache.tools.ant.taskdefs.compilers.Jvc,C,0,0,2,1,6,0.571429,118,0
+ant,1.3,org.apache.tools.ant.taskdefs.Taskdef,C,1,4,8,1,11,0.533333,146,0
+ant,1.3,org.apache.tools.ant.taskdefs.ExecTask,C,0,8,19,5,19,0.316667,378,0
+ant,1.3,org.apache.tools.mail.SmtpResponseReader,C,1,0,5,1,6,0,89,0
+ant,1.3,org.apache.tools.ant.taskdefs.Java,C,0,11,22,0,21,0.362637,412,0
+ant,1.3,org.apache.tools.ant.types.Commandline,C,3,1,17,24,11,0.2,421,0
+ant,1.3,org.apache.tools.ant.taskdefs.Replace,C,0,5,16,2,21,0.333333,597,1
+ant,1.3,org.apache.tools.ant.taskdefs.Expand,C,0,2,5,0,16,0.533333,254,0
+ant,1.3,org.apache.tools.ant.types.CommandlineJava,C,7,3,21,3,12,0.555556,251,1
+ant,1.3,org.apache.tools.ant.util.DOMElementWriter,C,0,0,5,1,15,0,346,0
+ant,1.3,org.apache.tools.ant.taskdefs.Untar,C,0,2,4,0,13,0.466667,236,0
+ant,1.3,org.apache.tools.ant.taskdefs.AntStructure,C,0,1,7,0,26,0.5,619,0
+ant,1.3,org.apache.tools.ant.taskdefs.XSLTLiaison,I,0,0,0,1,2,0,0,0
+ant,1.3,org.apache.tools.ant.taskdefs.PumpStreamHandler,C,0,3,11,6,6,0.321429,78,0
+ant,1.3,org.apache.tools.ant.PathTokenizer,C,0,0,3,2,7,1,94,0
+ant,1.3,org.apache.tools.ant.util.MergingMapper,C,0,2,4,3,3,0,19,0
+ant,1.3,org.apache.tools.ant.DesirableFilter,C,0,0,2,0,3,0,43,0
+ant,1.3,org.apache.tools.ant.taskdefs.GenerateKey,C,0,11,14,2,11,0.428571,378,0
+ant,1.3,org.apache.tools.ant.taskdefs.Filter,C,0,3,6,0,10,1,144,0
+ant,1.3,org.apache.tools.ant.taskdefs.Chmod,C,0,8,14,0,13,0.472222,152,0
+ant,1.3,org.apache.tools.ant.Target,C,5,6,19,10,11,0.435897,247,1
+ant,1.3,org.apache.tools.ant.taskdefs.compilers.Javac12,C,0,0,2,1,14,0.533333,116,0
+ant,1.3,org.apache.tools.ant.Task,C,6,7,19,73,5,0.064912,99,0
+ant,1.3,org.apache.tools.ant.taskdefs.UpToDate,C,0,2,7,0,13,0.277778,178,0
+ant,1.3,org.apache.tools.ant.TaskAdapter,C,1,1,4,4,7,0.733333,77,0
+ant,1.3,org.apache.tools.ant.taskdefs.Copydir,C,0,5,8,0,12,0.5,251,0
+ant,1.3,org.apache.tools.ant.taskdefs.Javadoc,C,0,51,65,5,27,0.163743,1419,0
+ant,1.3,org.apache.tools.ant.BuildException,C,2,1,14,98,7,0.062667,137,0
+ant,1.3,org.apache.tools.ant.IntrospectionHelper,C,2,0,13,22,41,0.102767,782,2
+ant,1.3,org.apache.tools.ant.NoBannerLogger,C,0,0,4,0,6,1,54,0
+ant,1.3,org.apache.tools.mail.MailMessage,C,2,1,27,1,13,0,492,0
